@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Seepossible::top_level" title="Seepossible" module="Seepossible_Blog" sortOrder="9999" resource="Magento_Backend::content"/>
+		<add id="Seepossible_Blog::seepossible_blog_blog" title="Blog" module="Seepossible_Blog" sortOrder="9999" resource="Magento_Backend::content" parent="Seepossible::top_level" action="seepossible_blog/blog/index"/>
+	</menu>
+</config>
